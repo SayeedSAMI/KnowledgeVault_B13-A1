@@ -20,23 +20,26 @@
     <title>Knowledge Vault</title>
   </head>
   <body>
-    <header class="container">
+    <header>
       <!-- navbar -->
       <nav class="nav_bar">
         <img src="./assets/logo-navbar.png" alt="" />
         <div class="nav-elements">
           <ul>
-            <li><a href="">Features</a></li>
+            <li><a class="btn" href="">Features</a></li>
             <li><a href="">How it works</a></li>
             <li><a href="">Why It's Different</a></li>
           </ul>
         </div>
-        <button>Get Early Access</button>
+        <button class="btn">Get Early Access</button>
       </nav>
       <!-- banner -->
       <section class="banner">
         <div style="margin: 154px auto">
-          <h5 style="background-color: white; color: #30b868; width: 230px"><i style="color: #30b868;" class="fa-solid fa-clover"></i>Early Access Now Open</h5>
+          <h5 style="background-color: white; color: #30b868; width: 230px">
+            <i style="color: #30b868" class="fa-solid fa-clover"></i>Early
+            Access Now Open
+          </h5>
           <h1 style="color: white">
             Structured Thinking,<br /><span style="color: #30b868"
               >Not Just Note-Taking.</span
@@ -50,12 +53,12 @@
           </p>
           <div>
             <button
-              class="ur-vault"
               style="background-color: #30b868; border: none"
+              class="ur-vault"
             >
               Start Building Your Vault
             </button>
-            <button style="background-color: transparent">
+            <button style="background-color: transparent" class="btn">
               <i style="color: white" class="fa-solid fa-play"></i>See How It
               Works
             </button>
@@ -63,7 +66,40 @@
         </div>
       </section>
     </header>
-    <main class="container"></main>
+
+    <main style="margin-top: 120px">
+      <section class="notes" style="display: flex; flex-direction: column; align-items: center;">
+        <h2>Notes don't fail, Structure does.</h2>
+        <p>
+          You're not bad at learning. Your tools just weren't built for how
+          knowledge actually works.
+        </p>
+        <div class="notes-div">
+          <div >
+            <img src="./assets/Vector.png" alt="">
+            <h5>Scattered Notes</h5>
+            <p>Your ideas live in 10 different apps,none of them connected</p>
+          </div>
+          <div>
+            <img src="./assets/Bookmarks.png" alt=" ">
+            <h5>Bookmark Overload</h5>
+            <p>Hundreds of saved links you'll never revisit or remember.</p>
+          </div>
+          <div >
+            <img src="./assets/Brain.png" alt="">
+            <h5>No Idea Connection</h5>
+            <p>
+              Insights stay isoloted, never building into bigger understanding
+            </p>
+          </div>
+          <div>
+            <img src="./assets/Info.png" alt="">
+            <h5>Forgetting What You Learned</h5>
+            <p>Knowledge fades because there's no system to retain it.</p>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer class="container"></footer>
   </body>
 </html>

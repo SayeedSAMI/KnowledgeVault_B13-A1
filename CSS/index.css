@@ -3,9 +3,12 @@ body {
   font-family: Inter;
   margin: 0px;
 }
-/* .container {
-  max-width: 0px auto;
-} */
+
+p{
+    font-size: 16px;
+  font-weight: 400;
+  color: #00000080;
+}
 
 /* Nav bar  */
 .nav_bar {
@@ -44,7 +47,7 @@ body {
   background-size: cover;
 
   /* width: 1990px; */
-    /* background-size: auto; */
+  /* background-size: auto; */
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -73,4 +76,38 @@ body {
   color: white;
   font-size: 16px;
   font-weight: 600;
+}
+.btn:hover {
+  background-color: blueviolet;
+}
+.ur-vault:hover {
+  background-color: blueviolet;
+}
+
+.notes h2{
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0px;
+}
+.notes p{
+  margin-bottom: 50px ;
+}
+.notes-div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+} 
+.notes-div div{
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+  border: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.059)
+}
+.notes-div div img {
+  margin-top: 60px;
+  background-color: orangered;
+  border-radius: 90px;
+  padding: 15px;
 }
