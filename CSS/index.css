@@ -4,8 +4,8 @@ body {
   margin: 0px;
 }
 
-p{
-    font-size: 16px;
+p {
+  font-size: 16px;
   font-weight: 400;
   color: #00000080;
 }
@@ -18,7 +18,7 @@ p{
   justify-content: space-between;
   align-items: center;
 }
-.nav_bar button {
+.nav_bar button ,.challenge button {
   background-color: #30b868;
   color: white;
   padding: 15px 15px;
@@ -84,30 +84,61 @@ p{
   background-color: blueviolet;
 }
 
-.notes h2{
+.main-section-h2 {
   font-size: 48px;
   font-weight: 700;
   margin: 0px;
 }
-.notes p{
-  margin-bottom: 50px ;
+/* .notes h2{
+
+} */
+.notes p {
+  margin-bottom: 50px;
 }
 .notes-div {
   display: flex;
   justify-content: center;
   text-align: center;
   gap: 20px;
-} 
-.notes-div div{
+}
+.notes-div div {
   width: 300px;
   height: 300px;
   padding: 25px;
   border: 8px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.059)
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.059);
 }
 .notes-div div img {
   margin-top: 60px;
   background-color: orangered;
   border-radius: 90px;
   padding: 15px;
+}
+
+.solution {
+  margin: 120px auto;
+  width: 1360px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.solution div ul {
+  list-style: none;
+}
+.solution div ul li {
+  margin: 10px auto;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.challenge{
+  padding: 80px 40px;
+  background-color: rgba(250, 235, 215, 0.399);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.challenge button{
+  display: flex;
+  align-items: center;
 }
